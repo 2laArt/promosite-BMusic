@@ -11,7 +11,7 @@ export const createDOM = () => {
 	const wrapper = createElement('div', ['intro_wrapper']);
 
 	for (let i = 0; i < 10; i++) {
-		const img = createElement('img', ['img_intro', `img_intro-${i}`], '', [['alt', 'Img Intro'], ['src', `../assets/images/intro/${i}.JPG`]]);
+		const img = createElement('img', ['img_intro', `img_intro-${i}`], '', [['alt', 'Img Intro'], ['src', `./../assets/images/intro/${i}.jpg`]]);
 		wrapper.appendChild(img);
 	}
 
