@@ -39,7 +39,7 @@
 .img_intro {
 	position: absolute;
 	transform: translate(-50%, -50%);
-	transition: transform 0.7s ease-out;
+	transition: transform 1.5s ease-out;
 	cursor: pointer;
 }
 
@@ -67,14 +67,14 @@
 }
 
 .img_intro-4 {
-	top: 75%;
-	left: 10%;
+	top: 80%;
+	left: 15%;
 	z-index: 4;
 }
 
 .img_intro-5 {
-	top: 60%;
-	left: 25%;
+	top: 45%;
+	left: 27%;
 	z-index: 2;
 }
 

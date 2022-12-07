@@ -1,7 +1,5 @@
 //
 "use strict"
 //
-import { createDOM } from "./components/intro.js";
-createDOM();
-
-console.log("hello")
+import { createIntro } from "./components/intro/intro.js";
+createIntro();
