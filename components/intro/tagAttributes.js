@@ -38,7 +38,7 @@ export const tagAttributes = {
 	'images': {
 		attributes(i) {
 			return [
-				'img', ['img_intro', `img_intro-${i}`], '', [['alt', 'Img Intro'], ['src', `./../assets/images/intro/${i}.jpg`]]
+				'img', ['img_intro', `img_intro-${i}`], '', [['alt', 'Img Intro'], ['src', `./assets/images/intro/${i}.jpg`]]
 			]
 		},
 		amount: 10,
