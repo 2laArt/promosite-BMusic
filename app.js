@@ -1,5 +1,11 @@
 //
 "use strict"
 //
-import { createIntro } from "./components/intro/intro.js";
-createIntro();
+// imports
+import { introGo } from "./components/intro/intro.js";
+import { createParticles } from "./components/particles/particles.js";
+// imports
+
+
+introGo();
+createParticles();

@@ -1,4 +1,7 @@
 @import url('./addStyles/intro.css');
+@import url('./addStyles/particles.css');
+@import url('./addStyles/genres.css');
+
 
 :root {
 	font-family: 'Montserrat', sans-serif;
@@ -17,4 +20,11 @@
 
 body {
 	background: #000;
+}
+
+.ab_center {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }

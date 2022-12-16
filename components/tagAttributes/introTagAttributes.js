@@ -1,4 +1,4 @@
-export const tagAttributes = {
+export const introTagAttributes = {
 	'intro': {
 		attributes() {
 			return [
@@ -20,7 +20,7 @@ export const tagAttributes = {
 	'title': {
 		attributes() {
 			return [
-				'h1', ['intro_title'], 'One good thing about music, when it hits you, you feel no pain.'
+				'h1', ['intro_title', 'ab_center'], 'One good thing about music, when it hits you, you feel no pain.'
 			]
 		},
 		amount: 1,

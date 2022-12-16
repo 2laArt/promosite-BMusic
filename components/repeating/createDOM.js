@@ -7,9 +7,19 @@ export const createElement = (tagName, classList, textContent, attributeList) =>
 	return element;
 }
 
-// export const createElements = (amount, tagName, classList, textContent, attributeList) => {
-// 	const elementList = [];
-// 	for (let i = 0; i < amount; i++) {
-// 		createElement()
-// 	}
-// }
+export const createSection = (tags) => {
+	const elements = {};
+	for (let key in tags) {
+		const tag = tags[key];
+		elements[key] = [];
+		for (let i = 0; i < tag.amount; i++) {
+			elements[key].push(createElement(...tag.attributes(i)));
+			if (tag.dependency && elements[tag.dependency]) {
+				elements[tag.dependency][0].append(...elements[key]);
+			} else {
+				document.body.append(...elements[key]);
+			}
+		}
+	}
+	return elements;
+}
