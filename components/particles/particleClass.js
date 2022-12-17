@@ -1,5 +1,5 @@
 
-export class particleCluster {
+export class ParticleCluster {
 	constructor(ctx, count, width, height) {
 		this.ctx = ctx;
 		this.x = Math.random() * width;

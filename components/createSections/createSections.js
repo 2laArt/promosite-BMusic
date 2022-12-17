@@ -3,6 +3,7 @@ import { createSection } from "../repeating/createDOM.js";
 // attributes //
 import { introTagAttributes } from "../tagAttributes/introTagAttributes.js";
 import { particlesTagAttributes } from "../tagAttributes/particlesTagAttributes.js";
+import { genresTagAttributes } from "../tagAttributes/genresTagAttributes.js";
 //attributes //
 
 
@@ -10,4 +11,4 @@ import { particlesTagAttributes } from "../tagAttributes/particlesTagAttributes.
 
 export const introTags = createSection(introTagAttributes);
 export const particlesTags = createSection(particlesTagAttributes);
-
+export const genresTags = createSection(genresTagAttributes);
